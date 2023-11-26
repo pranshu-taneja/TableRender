@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import CustomTable from "./Components/CustomTable"
-import "./app.css"
+import "./App.css"
 
 function MainApp() {
   const [tableData, setTableData] = useState([]); // Your table data fetched from API
