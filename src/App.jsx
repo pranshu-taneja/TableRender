@@ -8,7 +8,7 @@ function MainApp() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch("http://localhost:3000/data");
+        const response = await fetch("https://assets.alippo.com/catalog/static/data.json");
         const data = await response.json();
         setTableData(data);
         return data;
