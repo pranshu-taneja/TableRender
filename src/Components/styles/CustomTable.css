@@ -1,0 +1,29 @@
+.customTableMainWrapper {
+    display: flex;
+    max-width: 100vw;
+    z-index: 0;
+    font-size: 1.5em;
+}
+
+td {
+    padding: 1rem;
+    border: 2px solid white;
+}
+
+th {
+    padding: 1rem;
+    border: 2px solid white;
+    text-transform: capitalize;
+}
+
+.EditDeleteBtn>button {
+    margin: 0.5em;
+}
+
+
+@media (width <=468px) {
+    .customTableMainWrapper {
+        font-size: 1em;
+        overflow: scroll;
+    }
+}
